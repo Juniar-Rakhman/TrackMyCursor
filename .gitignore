@@ -1,0 +1,21 @@
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.build/
+bin/
+Package.resolved
+
+# macOS
+.DS_Store
+*.app
+
+# Derived
+DerivedData/
+
+.featyard
