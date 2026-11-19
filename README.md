@@ -1,4 +1,4 @@
-# TrackMyCursor
+# Track My Cursor
 
 A macOS cursor tracker/highlighter.
 

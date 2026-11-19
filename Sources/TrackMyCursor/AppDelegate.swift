@@ -69,6 +69,7 @@ public final class AppDelegate: NSObject, NSApplicationDelegate {
                     self.model.isBorderVisible = true
                 }
             }
+            guard self.model.isEnabled else { return }
             self.overlayWindow.updatePosition(loc)
             self.updateIdleVisibility(now: Date())
         }
